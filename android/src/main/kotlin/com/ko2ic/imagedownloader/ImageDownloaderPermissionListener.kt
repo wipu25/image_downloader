@@ -10,7 +10,7 @@ import io.flutter.plugin.common.PluginRegistry
 class ImageDownloaderPermissionListener(private val activity: Activity) :
     PluginRegistry.RequestPermissionsResultListener {
 
-    private val permissionRequestId: Int = 2578166
+    private val permissionRequestId: Int = 1000
 
     var callback: Callback? = null
 
